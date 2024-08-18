@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <header>
+        <h1>Student Registration</h1>
+        <p>Please fill out the form below to register as a student</p><br><br><br>
+    </header><hr>
+    <main>
+        <section>
+            <form action="url" method="post">
+                <h2>Student Information</h2>
+            <div>
+                <label for="full_name">Full Name:</label>
+                <input type="text" name="Full Name" id="full_name">
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="E-mail" id="email">
+            </div><br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="Date of Birth" id="dob" max="2004-04-27">
+            </div><br>
+            <div>
+                <label for="ph_no"> Phone Numbe:</label>
+                <input type="number" name=" Phone Numbe" id="ph_no" required>
+            </div><br>
+            <div>
+                <h4>Gender:</h4>
+                <label for="male">male</label>
+                <input type="radio" name="Gender" id="male" value="male">
+                <label for="female">female</label>
+                <input type="radio" name="Gender" id="female" value="female">                
+            </div><br>
+            <div>
+                <h4> Courses Interested: </h4>
+                <label for="HTML">HTML</label>
+                <input type="checkbox" name="Courses Interested" id="HTML" value="HTML">
+                <label for="CSS">CSS</label>
+                <input type="checkbox" name="Courses Interested" id="CSS" value="CSS">
+                <label for="JavaScript">JavaScript</label>
+                <input type="checkbox" name="Courses Interested" id="JavaScript" value="JavaScript">
+                <label for="python">Python</label>
+                <input type="checkbox" name="Courses Interested" id="python" value="Python">
+            </div><br>
+            <div>
+                <label for="comments">comments</label>
+                <input type="textarea" id="comments" name="comments" value="text your summary">
+            </div><br>
+            <button value="submit">submit</button>
+            </form>
+            <hr>
+        </section>
+        <section>
+            <h2> student information </h2>
+            <table border="1"  cellspacing="5px">
+                <thead>
+                    <tr>
+                        <th>Student ID</th>
+                        <th> Full Name</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>
+                        <th>Phone Numbe</th>
+                        <th>Gender</th>
+                        <th> Courses Interested</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>madhan</td>
+                        <td>ma@</td>
+                        <td>27-04-2004</td>
+                        <td>9876543210</td>
+                        <td>male</td>
+                        <td>JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>sasi</td>
+                        <td>sa@</td>
+                        <td>28-04-2004</td>
+                        <td>9876543210</td>
+                        <td>male</td>
+                        <td>python</td>
+                    </tr>
+
+                    <tr>
+                        <td>103</td>
+                        <td>sakthi</td>
+                        <td>sak@</td>
+                        <td>30-10-2004</td>
+                        <td>9876543210</td>
+                        <td>female</td>
+                        <td>css</td>
+                    </tr>
+
+
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+</html>
